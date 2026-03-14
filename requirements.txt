@@ -1,0 +1,27 @@
+# Market Mamba v2.0 — Requirements
+PyQt6>=6.6.0
+PyQt6-Qt6>=6.6.0
+websockets>=12.0
+requests>=2.31.0
+
+# Phase 1: Auth & Security
+bcrypt>=4.1.0
+cryptography>=42.0.0
+
+# Phase 2: Data Layer
+python-binance>=1.0.19
+aiohttp>=3.9.0
+
+# Phase 3: Indicators & SMC
+numpy>=1.26.0
+pandas>=2.1.0
+ta>=0.11.0
+
+# Phase 4: ML Engine
+scikit-learn>=1.4.0
+xgboost>=2.0.3
+# tensorflow>=2.15.0  # Uncomment for Phase 4
+
+# Phase 8: Export
+reportlab>=4.1.0
+python-dateutil>=2.8.2
